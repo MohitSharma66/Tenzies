@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.Bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Bottom h4 {
+    margin-left: 5%;
+}
+.Rolls {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.die {
+    width: calc(17% - 10px);
+    margin: 10px;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B283A;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.die.held {
+    background-color: #59E391;
+}
+
+.Button {
+    margin-left: 38%;
+    margin-top: 20px;
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #5035FF;
+    font-size: 1.4em;
+}
